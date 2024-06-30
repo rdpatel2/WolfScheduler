@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         name="pmd-eclipse"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+   <description>PMD Plugin preferences rule set</description>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/BooleanGetMethodName">
+      <properties>
+         <property description="Check parameterized methods"
+                   name="checkParameterizedMethods"
+                   type="Boolean">
+            <value>false</value>
+         </property>
+      </properties>
+   </rule>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/BrokenNullCheck"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/ClassCastExceptionWithToArray"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryBoxing"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/PrimitiveWrapperInstantiation"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/ClassNamingConventions"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/CollapsibleIfStatements"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryImport"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/DoubleCheckedLocking"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/EmptyCatchBlock">
+      <properties>
+         <property description="Empty blocks containing comments will be skipped"
+                   name="allowCommentedBlocks"
+                   type="Boolean">
+            <value>false</value>
+         </property>
+         <property description="Empty blocks catching exceptions with names matching this regular expression will be skipped"
+                   name="allowExceptionNameRegex"
+                   type="String">
+            <value>^(ignored|expected)$</value>
+         </property>
+      </properties>
+   </rule>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/EmptyControlStatement"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/EqualsNull"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/ForLoopShouldBeWhileLoop"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/FormalParameterNamingConventions"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/JUnit4TestShouldUseAfterAnnotation"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/JUnit4TestShouldUseBeforeAnnotation"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/JUnit4TestShouldUseTestAnnotation">
+      <properties>
+         <property description="The regex pattern used to identify test classes"
+                   name="testClassPattern"
+                   type="Regex">
+            <value>Test</value>
+         </property>
+      </properties>
+   </rule>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/JUnitTestsShouldIncludeAssert"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/TestClassWithoutTestCases"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryBooleanAssertion"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SimplifiableTestAssertion"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/JumbledIncrementer"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/MethodNamingConventions"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/MethodWithSameNameAsEnclosingClass"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/MisplacedNullCheck"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/NoPackage"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/PackageCase"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/ReturnFromFinallyBlock"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/ShortMethodName">
+      <properties>
+         <property description="Number of characters that are required as a minimum for a method name."
+                   max="100"
+                   min="1"
+                   name="minimum"
+                   type="Integer">
+            <value>3</value>
+         </property>
+      </properties>
+   </rule>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SimplifyBooleanExpressions"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SimplifyBooleanReturns"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SimplifyConditional"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SuspiciousEqualsMethodName"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/SuspiciousHashcodeMethodName"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UncommentedEmptyConstructor">
+      <properties>
+         <property description="Ignore explicit constructor invocation when deciding whether constructor is empty or not"
+                   name="ignoreExplicitConstructorInvocation"
+                   type="Boolean">
+            <value>false</value>
+         </property>
+      </properties>
+   </rule>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UncommentedEmptyMethodBody"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnconditionalIfStatement"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryConversionTemporary"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryModifier"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnnecessaryReturn"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnusedLocalVariable"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnusedNullCheckInEquals"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnusedPrivateField"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UnusedPrivateMethod"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UselessOperationOnImmutable"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UselessOverridingMethod"/>
+   <rule ref="C:\Users\Rohan\Development\csc_pmd.xml/UselessParentheses"/>
+</ruleset>
